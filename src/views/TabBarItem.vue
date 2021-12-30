@@ -2,6 +2,7 @@
   <div class="tab-bar-item">
     <img src="../assets/img/tabbar/home.svg" alt="">
     <p>首页</p>
+      
   </div>
 </template>
 
@@ -21,6 +22,6 @@ export default {
 }
 img {
   width: 24px;
-  height: 24px;
+  
 }
 </style>

@@ -4,8 +4,8 @@
       <tab-bar-item></tab-bar-item>
       <tab-bar-item></tab-bar-item>
       <tab-bar-item></tab-bar-item>
-      <tab-bar-item></tab-bar-item>
-    
+      
+     
     </tab-bar>
   </div>
 </template>
