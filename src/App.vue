@@ -1,11 +1,11 @@
 <template>
   <div>
     <tab-bar>
-      <tab-bar-item></tab-bar-item>
-      <tab-bar-item></tab-bar-item>
-      <tab-bar-item></tab-bar-item>
-      
-     
+      <tab-bar-item>
+        <div slot="icon"><img src="./assets/img/tabbar/home.svg" alt="" /></div>
+
+        <p slot="text">首页</p>
+      </tab-bar-item>
     </tab-bar>
   </div>
 </template>
