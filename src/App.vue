@@ -2,9 +2,40 @@
   <div>
     <tab-bar>
       <tab-bar-item>
-        <div slot="icon"><img src="./assets/img/tabbar/home.svg" alt="" /></div>
+        <template v-slot:icon>
+          <img src="./assets/img/tabbar/home.svg" alt="" />
+        </template>
 
-        <p slot="text">首页</p>
+        <template v-slot:text>
+          <p>首页</p>
+        </template>
+      </tab-bar-item>
+      <tab-bar-item>
+        <template v-slot:icon>
+          <img src="./assets/img/tabbar/home.svg" alt="" />
+        </template>
+
+        <template v-slot:text>
+          <p>首页</p>
+        </template>
+      </tab-bar-item>
+      <tab-bar-item>
+        <template v-slot:icon>
+          <img src="./assets/img/tabbar/home.svg" alt="" />
+        </template>
+
+        <template v-slot:text>
+          <p>首页</p>
+        </template>
+      </tab-bar-item>
+      <tab-bar-item>
+        <template v-slot:icon>
+          <img src="./assets/img/tabbar/home.svg" alt="" />
+        </template>
+
+        <template v-slot:text>
+          <p>首页</p>
+        </template>
       </tab-bar-item>
     </tab-bar>
   </div>
