@@ -47,6 +47,9 @@ export default {
 }
 .tab-bar-item img {
   width: 24px;
+  vertical-align: middle;
+  margin-top: 2px;
+  padding-bottom: 2px;
 }
 /* .red {
   color: #ff5777;

@@ -1,7 +1,8 @@
 <template>
 
 <div>
-    <h2>我是home组件</h2>
+    <h2>首页</h2>
+    <h1>首页</h1>
 </div>
 </template>
 
@@ -13,7 +14,7 @@ export default {
   },
 }
 </script>
-<style>
+<style scoped>
 
 
 </style>

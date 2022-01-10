@@ -6,7 +6,8 @@
 </template>
 
 <script>
-import mainTabBar from './views/mainTabBar.vue'
+// 别名
+import mainTabBar from '@/views/mainTabBar.vue'
 
 
 export default {
@@ -19,6 +20,7 @@ export default {
 };
 </script>
 
-<style>
-@import "./assets/css/reset.css";
+<style scoped>
+/* 别名 */
+@import "~@/assets/css/reset.css";
 </style>
